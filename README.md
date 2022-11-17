@@ -1,5 +1,17 @@
 # Toggl Hire Frontend Developer Homework
 
+## :triangular_flag_on_post: Setup :triangular_flag_on_post:
+
+Firstly, you have to create `.env` file in folder frontend. This file should contain environmental variable `REACT_APP_BACKEND_URL`. Value of this variable have to point to the backend API URL. For example: `REACT_APP_BACKEND_URL="https://toggl-hire-frontend-homework.onrender.com/api/send"`
+
+## App screenshots
+
+![uploaded](./images/uploaded.png)
+![fail](./images/fail.png)
+![success](./images/success.png)
+
+## Description
+
 The goal of this assignment is to see how familiar you are with JavaScript, React and web technologies. We tried to pick a task that is similar to what you would do at Toggl Hire, while keeping it minimal so you can finish it in a short time.
 
 We have a simple service used for sending emails to many candidates at once. The service has a single API endpoint, which accepts a list of email addresses. The API is hosted on https://toggl-hire-frontend-homework.onrender.com, where you can also find the documentation. The implementation is also in the `backend` folder if you want to see the details, but you are not expected to do any changes here.
